@@ -8,12 +8,15 @@ This script use the goodreads API to create a file README.md that show all the b
 - [goodreads](https://github.com/sosedoff/goodreads)
 
 ## Configuration
-Edit the config.yaml to add your:
+Create the config.yaml like this:
+```
+config:
+ api_key: XXXXXXX   #Your goodreads api key
+ api_secret: XXXXXX #Your goodreads api secret
+ user_id: 00000     #Your goodreads user id (your profile must be public)
+ shelf: read        #The shelf that you want to list 
 
-- api_key
-- api_secret
-- user_id
-- shelf
+```
 
 ## Use
 Execute the command:
