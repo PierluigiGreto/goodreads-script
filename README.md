@@ -1,6 +1,6 @@
 # GoodReads Script
 
-This script use the goodreads API to create a file README.md that show all the books you have read (exmple: [my-readings](https://github.com/PierluigiGreto/my-readings)).
+This script use the goodreads API to create a file README.md that show all the books you have read (example: [my-readings](https://github.com/PierluigiGreto/my-readings)).
 
 ## Requirements
 
