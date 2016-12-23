@@ -9,7 +9,7 @@ books = shelf.books
 
 file = open("README.md", 'w')
 
-file.write("###### My Readings\n")
+file.write("# My Readings\n")
 
 
 for book in books
