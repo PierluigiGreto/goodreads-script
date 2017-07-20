@@ -17,7 +17,16 @@ for book in books
 	  	for author in book.book.authors
 		  file.write(author[1].name)
 		end
-	file.write("\n")
+	file.write(" (my rating:")
+	star = Integer(book.rating)
+	for i in 1..star
+		file.write('★')
+	end
+	for i in star..4
+		file.write('☆')
+	end
+	file.write(")\n")
+
 end
 
 file.write("\n___\n")
